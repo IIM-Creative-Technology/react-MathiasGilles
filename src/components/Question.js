@@ -42,33 +42,54 @@ const questions = [
 ]
 
 const Question = () => {
-    const [step, setStep] = useState(0);
 
+    // State
+    const [step, setStep] = useState(0);
+    const [error, setError] = useState(false);
+    const [answer, setAnswer] = useState();
+
+    // Map on the questions
     const GetAllInputs = questions[step].inputs.map( (input) => <Input key={input.key} changeEvent={SetAnswer} answer={input}></Input>);
 
+    // Set the answer with the key
+    function SetAnswer(e){
+        setAnswer(e.target.value)
+    }
+
+    // Verify if there is an error
+    function GetError(){
+        if(answer === questions[step].answer){
+            setError(false)
+            return true
+        }
+        else{
+            setError(true)
+            return false
+        }
+    }
+
+    // Get the next Step if existe
+    function getNextStep(){
+        if(GetError()){
+            if(questions.length === (step + 1)){
+                console.log("Question terminée")
+            }
+            else{
+                setStep(step + 1)
+            }
+        }
+    }
+
+    // Return to the view
     return (
         <div className="container-question">
             <h2>{questions[step].question}</h2>
             <>{GetAllInputs}</>
             <button onClick={getNextStep}>Prochaine Question</button>
+            
         </div>
     );
 
-    function SetAnswer(e){
-        console.log('cliquer sur :', e.target.value)
-    }
-    
-    function getNextStep(){
-        if(questions.length === (step + 1)){
-            console.log("Question terminée")
-        }
-        else{
-            setStep(step + 1)
-        }
-    }
 }
-
-
-
 
 export default Question
