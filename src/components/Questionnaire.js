@@ -3,17 +3,15 @@ import Question from "./../data/questions.json";
 
 function Questionnaire() {
     const data = Question.All
-    const Questionnaire = Object.keys(data).map((questionnaire,index) =>{
-        return(
-                <li key={index}><a href="#">{questionnaire}</a></li>
+    const Questionnaire = Object.keys(data).map((questionnaire, index) => {
+        return (
+            <article key={index}><a href="#">{questionnaire}</a></article>
         )
     })
     return (
-        <div>
-            <ul>
-                {Questionnaire}
-            </ul>
-        </div>
+        <section className="surveys-container">
+            {Questionnaire}
+        </section>
     )
 
 }
