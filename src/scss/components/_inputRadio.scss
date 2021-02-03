@@ -1,0 +1,20 @@
+.container-input-radio{
+    height: auto;
+    width: 30vw;
+    position: relative;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    
+    .input{
+        margin: 0 10px 0 10px;
+        border: #282c34 solid 2px;
+        padding: 0;
+    }
+    
+    .answer{
+        color: black;
+    }
+}
