@@ -1,11 +1,11 @@
 import './App.css';
-import Questionnaire from "./components/Questionnaire";
+import Router from "./components/Router";
 
 
 function App() {
   return (
     <div className="App">
-      <Questionnaire/>
+        <Router/>
     </div>
   );
 }
