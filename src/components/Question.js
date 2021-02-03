@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "../scss/layout/_question.scss"
 import Input from "./Input";
+import Error from "./Error";
 
 const questions = [
     {
@@ -68,6 +69,7 @@ const Question = () => {
         }
     }
 
+
     // Get the next Step if existe
     function getNextStep(){
         if(GetError()){
@@ -80,13 +82,14 @@ const Question = () => {
         }
     }
 
+
     // Return to the view
     return (
         <div className="container-question">
             <h2>{questions[step].question}</h2>
             <>{GetAllInputs}</>
             <button onClick={getNextStep}>Prochaine Question</button>
-            
+            <Error error={error}></Error>
         </div>
     );
 
