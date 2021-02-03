@@ -5,7 +5,7 @@ const Question = () => {
     return (
         <div>
             <h2>Ceci est un test zeubi</h2>
-            <Input></Input>
+            <Input question="Voici la question"></Input>
         </div>
     );
 }
