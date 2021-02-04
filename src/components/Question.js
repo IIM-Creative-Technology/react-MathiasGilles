@@ -7,6 +7,7 @@ import "../scss/layout/_question.scss"
 //COMPONENTS
 import Input from "./Input";
 import Score from "./Score";
+import Redline from "./Redline"
 
 
 const questions = [
@@ -100,6 +101,7 @@ function Question() {
     // Return to the view
     return (
         <div className="container-question">
+            <Redline></Redline>
             <h2>{questions[step].question}</h2>
             <Score mark={mark} questionLength={questions.length}></Score>
             <>{GetAllInputs}</>
