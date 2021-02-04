@@ -1,7 +1,13 @@
+// REACT
 import React, { useState } from 'react';
+
+// SCSS
 import "../scss/layout/_question.scss"
+
+//COMPONENTS
 import Input from "./Input";
-import Error from "./Error";
+import Score from "./Score";
+
 
 const questions = [
     {
@@ -19,6 +25,10 @@ const questions = [
             {
                 "key": "test3",
                 "question": "je suis le input 3"
+            },
+            {
+                "key": "test4",
+                "question": "je suis le input 4"
             }
         ]
     },
@@ -37,17 +47,21 @@ const questions = [
             {
                 "key": "test3",
                 "question": "je suis  3"
+            },
+            {
+                "key": "test4",
+                "question": "je suis  4"
             }
         ]
     },
 ]
 
-const Question = () => {
+function Question() {
 
     // State
     const [step, setStep] = useState(0);
-    const [error, setError] = useState(false);
     const [answer, setAnswer] = useState();
+    const [mark, setMark] = useState(0);
 
     // Map on the questions
     const GetAllInputs = questions[step].inputs.map( (input) => <Input key={input.key} changeEvent={SetAnswer} answer={input}></Input>);
@@ -60,36 +74,36 @@ const Question = () => {
     // Verify if there is an error
     function GetError(){
         if(answer === questions[step].answer){
-            setError(false)
-            return true
-        }
-        else{
-            setError(true)
             return false
         }
+        else{
+            return true
+        }
     }
-
 
     // Get the next Step if existe
     function getNextStep(){
         if(GetError()){
-            if(questions.length === (step + 1)){
-                console.log("Question terminée")
+            setMark(mark - 0.25)
+            if(questions.length !== (step + 1)){
+                setStep(step + 1)
             }
-            else{
+        }
+        else{
+            setMark(mark + 1)
+            if(questions.length !== (step + 1)){
                 setStep(step + 1)
             }
         }
     }
 
-
     // Return to the view
     return (
         <div className="container-question">
             <h2>{questions[step].question}</h2>
+            <Score mark={mark} questionLength={questions.length}></Score>
             <>{GetAllInputs}</>
-            <button onClick={getNextStep}>Prochaine Question</button>
-            <Error error={error}></Error>
+            <button className="button-next-step" onClick={getNextStep}>Prochaine Question</button>
         </div>
     );
 
