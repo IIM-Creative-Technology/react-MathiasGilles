@@ -1,6 +1,12 @@
+import NavBarre from "./Nav";
+import Questionnaire from "./Questionnaire";
+
 function HomePage(){
     return(
-        <h1>Home Page</h1>
+        <main>
+            <NavBarre/>
+            <Questionnaire/>
+        </main>
     )
 }
 

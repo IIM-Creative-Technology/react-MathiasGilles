@@ -3,25 +3,16 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link,
 } from "react-router-dom";
-import Questionnaire from "./Questionnaire";
+import HomePage from "./Home";
 
 function Routes() {
     return (
         <Router>
             <div>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                    </ul>
-                </nav>
-
                 <Switch>
                     <Route exact path="/">
-                        <Questionnaire/>
+                        <HomePage/>
                     </Route>
 
                 </Switch>
