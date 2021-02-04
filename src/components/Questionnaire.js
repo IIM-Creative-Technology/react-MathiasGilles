@@ -1,6 +1,8 @@
 import React from 'react';
 import Question from "./../data/questions.json";
 
+import "../scss/layout/_questionnaire.scss";
+
 function Questionnaire() {
     const data = Question.All
     const Questionnaire = Object.keys(data).map((questionnaire, index) => {
