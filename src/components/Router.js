@@ -6,7 +6,6 @@ import {
     Link,
 } from "react-router-dom";
 import Questionnaire from "./Questionnaire";
-import HomePage from "./Home";
 
 function Routes() {
     return (
@@ -17,19 +16,14 @@ function Routes() {
                         <li>
                             <Link to="/">Home</Link>
                         </li>
-                        <li>
-                            <Link to="/surveys">Questionnaires</Link>
-                        </li>
                     </ul>
                 </nav>
 
                 <Switch>
                     <Route exact path="/">
-                        <HomePage/>
-                    </Route>
-                    <Route exact path="/surveys">
                         <Questionnaire/>
                     </Route>
+
                 </Switch>
             </div>
         </Router>
