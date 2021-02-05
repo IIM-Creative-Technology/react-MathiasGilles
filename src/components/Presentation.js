@@ -4,9 +4,11 @@ function Presentation(){
     return(
         <section className="presentation-container">
             <article>
-                <h1>Des Quizz incroyables</h1>
-                <p>inspiré par Yanis Elmaleh</p>
-                <button>Voir quizz</button>
+                <div>
+                    <h1>Des Quizz incroyables</h1>
+                    <p>Il n'y a pas mieux dans le milieu !</p>
+                    <a href="#surveys">Voir quizz</a>
+                </div>
             </article>
             <article>
                 <img src="http://place-hold.it/400x400" alt=""/>
