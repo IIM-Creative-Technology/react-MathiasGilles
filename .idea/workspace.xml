@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d16d3231-4d0a-469c-acc6-6d721b939592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Redline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_redline.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Question.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Question.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_question.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_question.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Redline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_redline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_redline.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,8 @@
       <workItem from="1612282883868" duration="2398000" />
       <workItem from="1612354908553" duration="1962000" />
       <workItem from="1612369411197" duration="1578000" />
-      <workItem from="1612454292747" duration="4869000" />
+      <workItem from="1612454292747" duration="9797000" />
+      <workItem from="1612525792425" duration="2035000" />
     </task>
     <servers />
   </component>

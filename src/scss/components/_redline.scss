@@ -14,18 +14,31 @@
     justify-content: flex-start;
     flex-direction: column;
     padding-top: 30px;
+    box-sizing: border-box;
     
     .title-question{
         font-size: 25px;
-        margin-bottom: 10vh;
+        margin-bottom: 50px;
     }
     
     .question{
         width: 90%;
-        border: #2c3e50 solid 1px;
         padding: 12px 0;
         font-size: 18px;
         border-radius: 5px;
         margin: 0 0 20px 0;
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.46);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.46);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.46);
+    }
+    
+    .question-validate{
+        color: white;
+        background-color: #2ecc71;
+    }
+    
+    .question-wrong{
+        color: white;
+        background-color: #e74c3c;
     }
 }

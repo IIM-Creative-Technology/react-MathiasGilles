@@ -7,7 +7,6 @@ import "../scss/layout/_question.scss"
 //COMPONENTS
 import Input from "./Input";
 import Score from "./Score";
-import Redline from "./Redline"
 
 
 const questions = [
@@ -53,6 +52,13 @@ const questions = [
                 "key": "test4",
                 "question": "je suis  4"
             }
+        ]
+    },
+    {
+        'question': "Terminé, Voici votre score",
+        'answer' : '',
+        'inputs': [
+
         ]
     },
 ]
@@ -101,11 +107,10 @@ function Question() {
     // Return to the view
     return (
         <div className="container-question">
-            <Redline></Redline>
             <h2>{questions[step].question}</h2>
-            <Score mark={mark} questionLength={questions.length}></Score>
+            <Score mark={mark} questionLength={questions.length - 1}></Score>
             <>{GetAllInputs}</>
-            <button className="button-next-step" onClick={getNextStep}>Prochaine Question</button>
+            <button className="button-next-step" onClick={getNextStep}>{(questions.length - 1) === step ? "Revenir a la landing" : "Continuer"}</button>
         </div>
     );
 
