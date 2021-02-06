@@ -1,11 +1,15 @@
 .surveys-container {
   width: 70%;
+  height: 100vh;
   margin-left: 15%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 
   article {
     width: 150px;
+    //height: 30px;
+    text-align: center;
     padding: 10px 20px;
     background: #e74c3c;
     border-radius: 10px;

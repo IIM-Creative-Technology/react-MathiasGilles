@@ -12,7 +12,7 @@ function Questionnaire() {
         )
     })
     return (
-        <section className="surveys-container">
+        <section id="surveys" className="surveys-container">
             {Questionnaire}
         </section>
     )
