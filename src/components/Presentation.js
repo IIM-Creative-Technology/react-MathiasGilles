@@ -1,4 +1,5 @@
 import "../scss/layout/_presentation_home.scss"
+import Weather from "./Weather";
 
 import imagePresentation from "../images/home-page-image.jpg";
 
@@ -13,7 +14,7 @@ function Presentation(){
                 </div>
             </article>
             <article>
-                <img src={imagePresentation} alt="image home page"/>
+                <Weather/>
             </article>
         </section>
     )
