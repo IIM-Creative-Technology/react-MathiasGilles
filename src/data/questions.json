@@ -1,73 +1,922 @@
 {
   "All": [
     {
-      "name": "Blablabla",
+      "name": "Angular",
       "questionnaire": [
         {
-          "question": "Couleur du cheval",
+          "question": "Qui a créé angular ?",
           "options": [
             {
-              "key": "green",
-              "name": "vert"
+              "key": "google",
+              "name": "Google"
             },
             {
-              "key": "red",
-              "name": "rouge"
+              "key": "misko hevery",
+              "name": "Misko Hevery"
             },
             {
-              "key": "blue",
-              "name": "bleu"
+              "key": "airbnb",
+              "name": "Airbnb"
             },
             {
-              "key": "yellow",
-              "name": "jaune"
+              "key": "facebook",
+              "name": "Facebook"
             }
           ],
-          "answer": "green"
+          "answer": "misko hevery"
         },
         {
-          "question": "Couleur du poney",
+          "question": "Par qui est financer Angular ?",
           "options": [
             {
-              "key": "green",
-              "name": "vert"
+              "key": "google",
+              "name": "Google"
             },
             {
-              "key": "red",
-              "name": "rouge"
+              "key": "facebook",
+              "name": "Facebook"
             },
             {
-              "key": "blue",
-              "name": "bleu"
+              "key": "les dons",
+              "name": "Les dons"
             },
             {
-              "key": "yellow",
-              "name": "jaune"
+              "key": "moi même",
+              "name": "Moi même"
             }
           ],
-          "answer": "red"
+          "answer": "google"
         },
         {
-          "question": "Couleur du lion",
+          "question": "Quel est le bon nom",
           "options": [
             {
-              "key": "green",
-              "name": "vert"
+              "key": "angular",
+              "name": "Angular"
             },
             {
-              "key": "red",
-              "name": "rouge"
+              "key": "angularjs",
+              "name": "AngularJS"
             },
             {
-              "key": "blue",
-              "name": "bleu"
+              "key": "les deux",
+              "name": "Les deux"
             },
             {
-              "key": "yellow",
-              "name": "jaune"
+              "key": "c'est pareil",
+              "name": "C’est pareil"
             }
           ],
-          "answer": "yellow"
+          "answer": "les deux"
+        },
+        {
+          "question": "Pourquoi le nom angular ?",
+          "options": [
+            {
+              "key": "car c’est jolie",
+              "name": "Car c’est jolie"
+            },
+            {
+              "key": "car c’est carrer",
+              "name": "Car c’est CARRER"
+            },
+            {
+              "key": "car les chevrons du html sont angulaires",
+              "name": "Car les chevrons du HTML sont angulaires"
+            },
+            {
+              "key": "car c’est pointu",
+              "name": "Car c’est pointu"
+            }
+          ],
+          "answer": "car les chevrons du html sont angulaires"
+        },
+        {
+          "question": "Quelle est la différence entre Angular et AngularJS ?",
+          "options": [
+            {
+              "key": "le nom",
+              "name": "Le nom"
+            },
+            {
+              "key": "le passage du javascript au type script",
+              "name": "Le passage du javascript au type script"
+            },
+            {
+              "key": "le patron",
+              "name": "Le patron"
+            },
+            {
+              "key": "le créateur",
+              "name": "Le créateur"
+            }
+          ],
+          "answer": "le passage du javascript au type script"
+        },
+        {
+          "question": "Quelle est la cause de la chute de angular ?",
+          "options": [
+            {
+              "key": "react est trop bien",
+              "name": "React est trop bien"
+            },
+            {
+              "key": "vue est monté en fleche ?",
+              "name": "Vue est monté en fleche ?"
+            },
+            {
+              "key": "un problème de compatibilité",
+              "name": "Un problème de compatibilité"
+            },
+            {
+              "key": "il n’est plus mis à jour",
+              "name": "Il n’est plus mis à jour"
+            }
+          ],
+          "answer": "un problème de compatibilité"
+        },
+        {
+          "question": "Quelle est la couleur du logo angular ?",
+          "options": [
+            {
+              "key": "bleu",
+              "name": "Bleu"
+            },
+            {
+              "key": "vert",
+              "name": "Vert"
+            },
+            {
+              "key": "rouge",
+              "name": "Rouge"
+            },
+            {
+              "key": "violet",
+              "name": "Violet"
+            }
+          ],
+          "answer": "vert"
+        },
+        {
+          "question": "Angular est :",
+          "options": [
+            {
+              "key": "un framework",
+              "name": "Un framework"
+            },
+            {
+              "key": "une Librairie",
+              "name": "Une Librairie"
+            },
+            {
+              "key": "un truc pour coder je crois",
+              "name": "Un truc pour coder je crois"
+            },
+            {
+              "key": "un objet",
+              "name": "Un objet"
+            }
+          ],
+          "answer": "un framework"
+        },
+        {
+          "question": "Quelle est la différence avec React ?",
+          "options": [
+            {
+              "key": "sa réactivité",
+              "name": "Sa réactivité"
+            },
+            {
+              "key": "son nom",
+              "name": "Son nom"
+            },
+            {
+              "key": "sa position dans la société",
+              "name": "Sa position dans la société"
+            },
+            {
+              "key": "la couleur du logo",
+              "name": "La couleur du logo"
+            }
+          ],
+          "answer": "sa réactivité"
+        },
+        {
+          "question": "Qui sont les meilleurs élèves ?",
+          "options": [
+            {
+              "key": "mathias et quentin",
+              "name": "Mathias et Quentin"
+            },
+            {
+              "key": "wrong",
+              "name": "Mathias et Quentin"
+            },
+            {
+              "key": "wrong",
+              "name": "Mathias et Quentin"
+            },
+            {
+              "key": "wrong",
+              "name": "Mathias et Quentin"
+            }
+          ],
+          "answer": "mathias et quentin"
+        },
+        {
+          "question": "Terminé, voici votre score",
+          "options": [],
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "name": "Vue",
+      "questionnaire": [
+        {
+          "question": "Qui a créé vue ?",
+          "options": [
+            {
+              "key": "google",
+              "name": "Google"
+            },
+            {
+              "key": "evan you",
+              "name": "Evan You"
+            },
+            {
+              "key": "airbnb",
+              "name": "Airbnb"
+            },
+            {
+              "key": "airbnb",
+              "name": "Airbnb"
+            }
+          ],
+          "answer": "evan you"
+        },
+        {
+          "question": "Par qui est financé vue ?",
+          "options": [
+            {
+              "key": "google",
+              "name": "Google"
+            },
+            {
+              "key": "facebook",
+              "name": "Facebook"
+            },
+            {
+              "key": "les dons",
+              "name": "Les dons"
+            },
+            {
+              "key": "moi même",
+              "name": "Moi même"
+            }
+          ],
+          "answer": "les dons"
+        },
+        {
+          "question": "Quand a été créé vue ?",
+          "options": [
+            {
+              "key": "2011",
+              "name": "2011"
+            },
+            {
+              "key": "2012",
+              "name": "2012"
+            },
+            {
+              "key": "2013",
+              "name": "2013"
+            },
+            {
+              "key": "2014",
+              "name": "2014"
+            }
+          ],
+          "answer": "2013"
+        },
+        {
+          "question": "A quoi est comparée vue ?",
+          "options": [
+            {
+              "key": "un tracteur",
+              "name": "Un tracteur"
+            },
+            {
+              "key": "une formule 1",
+              "name": "Une formule 1"
+            },
+            {
+              "key": "une peugot 206",
+              "name": "Une peugot 206"
+            },
+            {
+              "key": "Je sais pas",
+              "name": "Je sais pas"
+            }
+          ],
+          "answer": "une peugot 206"
+        },
+        {
+          "question": "Quel est le langage utilisé par vue?",
+          "options": [
+            {
+              "key": "javascript",
+              "name": "Javascript"
+            },
+            {
+              "key": "type script",
+              "name": "Type script"
+            },
+            {
+              "key": "l’un ou l’autre on peut choisir",
+              "name": "L’un ou l’autre on peut choisir"
+            },
+            {
+              "key": "le php",
+              "name": "Le php"
+            }
+          ],
+          "answer": "l’un ou l’autre on peut choisir"
+        },
+        {
+          "question": "Comment se prononce le nom du framework ?",
+          "options": [
+            {
+              "key": "vier",
+              "name": "vier"
+            },
+            {
+              "key": "vuuuee",
+              "name": "vuuuee"
+            },
+            {
+              "key": "view",
+              "name": "view"
+            },
+            {
+              "key": "un truc comme vuouais",
+              "name": "un truc comme vuouais"
+            }
+          ],
+          "answer": "view"
+        },
+        {
+          "question": "Quelle est la couleur du logo vue ?",
+          "options": [
+            {
+              "key": "bleu",
+              "name": "Bleu"
+            },
+            {
+              "key": "vert",
+              "name": "Vert"
+            },
+            {
+              "key": "rouge",
+              "name": "Rouge"
+            },
+            {
+              "key": "violet",
+              "name": "Violet"
+            }
+          ],
+          "answer": "vert"
+        },
+        {
+          "question": "Vue est :",
+          "options": [
+            {
+              "key": "un framework",
+              "name": "Un framework"
+            },
+            {
+              "key": "une Librairie",
+              "name": "Une Librairie"
+            },
+            {
+              "key": "un truc pour coder je crois",
+              "name": "Un truc pour coder je crois"
+            },
+            {
+              "key": "un objet",
+              "name": "Un objet"
+            }
+          ],
+          "answer": "un framework"
+        },
+        {
+          "question": "Quelle est la différence avec React ?",
+          "options": [
+            {
+              "key": "sa réactivité",
+              "name": "Sa réactivité"
+            },
+            {
+              "key": "son nom",
+              "name": "Son nom"
+            },
+            {
+              "key": "sa position dans la société",
+              "name": "Sa position dans la société"
+            },
+            {
+              "key": "La couleur du logo",
+              "name": "La couleur du logo"
+            }
+          ],
+          "answer": "sa réactivité"
+        },
+        {
+          "question": "Quelle note faut-il mettre  ?",
+          "options": [
+            {
+              "key": "20",
+              "name": "20"
+            },
+            {
+              "key": "20",
+              "name": "20"
+            },
+            {
+              "key": "20",
+              "name": "20"
+            },
+            {
+              "key": "20",
+              "name": "20"
+            }
+          ],
+          "answer": "20"
+        },
+        {
+          "question": "Terminé, voici votre score",
+          "options": [],
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "name": "React",
+      "questionnaire": [
+        {
+          "question": "Qui a créé react ?",
+          "options": [
+            {
+              "key": "google",
+              "name": "Google"
+            },
+            {
+              "key": "evan you",
+              "name": "Evan You"
+            },
+            {
+              "key": "airbnb",
+              "name": "Airbnb"
+            },
+            {
+              "key": "jordan walke",
+              "name": "Jordan Walke"
+            }
+          ],
+          "answer": "jordan walke"
+        },
+        {
+          "question": "Par qui est financé react ?",
+          "options": [
+            {
+              "key": "google",
+              "name": "Google"
+            },
+            {
+              "key": "facebook",
+              "name": "Facebook"
+            },
+            {
+              "key": "les dons",
+              "name": "Les dons"
+            },
+            {
+              "key": "moi même",
+              "name": "Moi même"
+            }
+          ],
+          "answer": "facebook"
+        },
+        {
+          "question": "Quand a été créé react ?",
+          "options": [
+            {
+              "key": "2O11",
+              "name": "2O11"
+            },
+            {
+              "key": "2O12",
+              "name": "2O12"
+            },
+            {
+              "key": "2O13",
+              "name": "2O13"
+            },
+            {
+              "key": "2O14",
+              "name": "2O14"
+            }
+          ],
+          "answer": "2O11"
+        },
+        {
+          "question": "A quoi est comparée react ?",
+          "options": [
+            {
+              "key": "un tracteur",
+              "name": "Un tracteur"
+            },
+            {
+              "key": "une formule 1",
+              "name": "Une formule 1"
+            },
+            {
+              "key": "une peugot 206",
+              "name": "Une peugot 206"
+            },
+            {
+              "key": "Je sais pas",
+              "name": "Je sais pas"
+            }
+          ],
+          "answer": "une formule 1"
+        },
+        {
+          "question": "Quel est le langage utilisé par react?",
+          "options": [
+            {
+              "key": "javascript",
+              "name": "Javascript"
+            },
+            {
+              "key": "type script",
+              "name": "Type script"
+            },
+            {
+              "key": "l’un ou l’autre on peut choisir",
+              "name": "L’un ou l’autre on peut choisir"
+            },
+            {
+              "key": "le php",
+              "name": "Le php"
+            }
+          ],
+          "answer": "javascript"
+        },
+        {
+          "question": "Quel est son classement dans les framework front ?",
+          "options": [
+            {
+              "key": "troisième",
+              "name": "Troisième"
+            },
+            {
+              "key": "deuxième",
+              "name": "Deuxième"
+            },
+            {
+              "key": "first",
+              "name": "First"
+            },
+            {
+              "key": "pas de classement",
+              "name": "Pas de classement"
+            }
+          ],
+          "answer": "first"
+        },
+        {
+          "question": "Quelle est la couleur du logo react ?",
+          "options": [
+            {
+              "key": "bleu",
+              "name": "Bleu"
+            },
+            {
+              "key": "vert",
+              "name": "Vert"
+            },
+            {
+              "key": "rouge",
+              "name": "Rouge"
+            },
+            {
+              "key": "violet",
+              "name": "Violet"
+            }
+          ],
+          "answer": "bleu"
+        },
+        {
+          "question": "React est :",
+          "options": [
+            {
+              "key": "un framework",
+              "name": "Un framework"
+            },
+            {
+              "key": "une Librairie",
+              "name": "Une Librairie"
+            },
+            {
+              "key": "un truc pour coder je crois",
+              "name": "Un truc pour coder je crois"
+            },
+            {
+              "key": "un objet",
+              "name": "Un objet"
+            }
+          ],
+          "answer": "un framework"
+        },
+        {
+          "question": "Quelle est la différence avec Angular ?",
+          "options": [
+            {
+              "key": "sa maintenance",
+              "name": "Sa maintenance"
+            },
+            {
+              "key": "son nom",
+              "name": "Son nom"
+            },
+            {
+              "key": "sa position dans la société",
+              "name": "Sa position dans la société"
+            },
+            {
+              "key": "la couleur du logo",
+              "name": "La couleur du logo"
+            }
+          ],
+          "answer": "sa maintenance"
+        },
+        {
+          "question": "Quel est le meilleur prof ?",
+          "options": [
+            {
+              "key": "je sais pas mais il fait du react",
+              "name": "Je sais pas mais il fait du react"
+            },
+            {
+              "key": "je sais pas mais il fait du react",
+              "name": "Je sais pas mais il fait du react"
+            },
+            {
+              "key": "je sais pas mais il fait du react",
+              "name": "Je sais pas mais il fait du react"
+            },
+            {
+              "key": "je sais pas mais il fait du react",
+              "name": "Je sais pas mais il fait du react"
+            }
+          ],
+          "answer": "je sais pas mais il fait du react"
+        },
+        {
+          "question": "Terminé, voici votre score",
+          "options": [],
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "name": "Javascript",
+      "questionnaire": [
+        {
+          "question": "Qui a créé javascript ?",
+          "options": [
+            {
+              "key": "google",
+              "name": "Google"
+            },
+            {
+              "key": "evan you",
+              "name": "Evan You"
+            },
+            {
+              "key": "airbnb",
+              "name": "Airbnb"
+            },
+            {
+              "key": "brendan eich",
+              "name": "Brendan Eich"
+            }
+          ],
+          "answer": "brendan eich"
+        },
+        {
+          "question": "Pourquoi créé le javascript ?",
+          "options": [
+            {
+              "key": "remplacer flash",
+              "name": "Remplacer flash"
+            },
+            {
+              "key": "animer les pages web facilement",
+              "name": "Animer les pages web facilement"
+            },
+            {
+              "key": "pour le fun",
+              "name": "Pour le fun"
+            },
+            {
+              "key": "c’est un mystère",
+              "name": "C’est un mystère"
+            }
+          ],
+          "answer": "animer les pages web facilement"
+        },
+        {
+          "question": "Quand a été créé javascript ?",
+          "options": [
+            {
+              "key": "1997",
+              "name": "1997"
+            },
+            {
+              "key": "1998",
+              "name": "1998"
+            },
+            {
+              "key": "1995",
+              "name": "1995"
+            },
+            {
+              "key": "2006",
+              "name": "2006"
+            }
+          ],
+          "answer": "1997"
+        },
+        {
+          "question": "Quelle est la date du début de javascript ?",
+          "options": [
+            {
+              "key": "2000",
+              "name": "2000"
+            },
+            {
+              "key": "2006",
+              "name": "2006"
+            },
+            {
+              "key": "2004",
+              "name": "2004"
+            },
+            {
+              "key": "2015",
+              "name": "2015"
+            }
+          ],
+          "answer": "2006"
+        },
+        {
+          "question": "A quelle date a eu lieu le mise a jours ES6?",
+          "options": [
+            {
+              "key": "2015",
+              "name": "2015"
+            },
+            {
+              "key": "2013",
+              "name": "2013"
+            },
+            {
+              "key": "2016",
+              "name": "2016"
+            },
+            {
+              "key": "2013",
+              "name": "2013"
+            }
+          ],
+          "answer": "2015"
+        },
+        {
+          "question": "Quelle librairie a poussé le javascript ?",
+          "options": [
+            {
+              "key": "react",
+              "name": "React"
+            },
+            {
+              "key": "vue",
+              "name": "Vue"
+            },
+            {
+              "key": "jquery",
+              "name": "Jquery"
+            },
+            {
+              "key": "angular",
+              "name": "Angular"
+            }
+          ],
+          "answer": "jquery"
+        },
+        {
+          "question": "En quoi google va pousser javascript ?",
+          "options": [
+            {
+              "key": "avec le V8",
+              "name": "Avec le V8"
+            },
+            {
+              "key": "une mise à jour de google chrome",
+              "name": "Une mise à jour de google chrome"
+            },
+            {
+              "key": "faire de la pub",
+              "name": "Faire de la pub"
+            },
+            {
+              "key": "faire une librairie",
+              "name": "Faire une librairie"
+            }
+          ],
+          "answer": "avec le V8"
+        },
+        {
+          "question": "Microsoft EDGE :",
+          "options": [
+            {
+              "key": "est sous le V8",
+              "name": "Est sous le V8"
+            },
+            {
+              "key": "encore un truc inventé par microsoft",
+              "name": "Encore un truc inventé par microsoft"
+            },
+            {
+              "key": "un truc pour coder je crois",
+              "name": "Un truc pour coder je crois"
+            },
+            {
+              "key": "c’est quoi ?",
+              "name": "C’est quoi ?"
+            }
+          ],
+          "answer": "est sous le V8"
+        },
+        {
+          "question": "Quelle est la différence avec php ?",
+          "options": [
+            {
+              "key": "son exécution",
+              "name": "Son exécution"
+            },
+            {
+              "key": "son nom",
+              "name": "Son nom"
+            },
+            {
+              "key": "sa position dans la société",
+              "name": "Sa position dans la société"
+            },
+            {
+              "key": "la couleur du logo",
+              "name": "La couleur du logo"
+            }
+          ],
+          "answer": "son exécution"
+        },
+        {
+          "question": "Quel est le meilleur prof ?",
+          "options": [
+            {
+              "key": "je sais pas mais il fait du react",
+              "name": "Je sais pas mais il fait du react"
+            },
+            {
+              "key": "je sais pas mais il fait du react",
+              "name": "Je sais pas mais il fait du react"
+            },
+            {
+              "key": "je sais pas mais il fait du react",
+              "name": "Je sais pas mais il fait du react"
+            },
+            {
+              "key": "je sais pas mais il fait du react",
+              "name": "Je sais pas mais il fait du react"
+            }
+          ],
+          "answer": "je sais pas mais il fait du react"
+        },
+        {
+          "question": "Terminé, voici votre score",
+          "options": [],
+          "answer": ""
         }
       ]
     }
