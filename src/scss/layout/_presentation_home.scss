@@ -43,3 +43,32 @@
     }
   }
 }
+
+@media (min-width: 300px) and (max-width: 700px){
+  .presentation-container{
+    width: 100vw;
+    height: calc(100vh - 90px );
+    margin-top: 90px;
+    padding-left: 0;
+    display: block;
+
+    article:first-child{
+      width: 100vw;
+      display: block;
+      padding-left: 35px;
+    }
+
+    article:last-child{
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+      img{
+        width: calc(100vw - 10% );
+        height: calc(100vw - 10% );
+        margin-left: 5%;
+      }
+    }
+  }
+}

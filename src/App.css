@@ -3,6 +3,10 @@
   scroll-behavior: smooth;
 }
 
+main{
+  width: 100%;
+}
+
 .App {
   text-align: center;
 }
