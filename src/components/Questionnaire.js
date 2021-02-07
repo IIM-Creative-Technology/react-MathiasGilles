@@ -8,7 +8,7 @@ function Questionnaire() {
     const Questionnaire = Object.keys(data).map((questionnaire, index) => {
         let route = "/surveys/" + {index}.index
         return (
-            <article key={index}><a href={route}>{questionnaire}</a></article>
+            <article key={index}><a href={route}>{data[index].name}</a></article>
         )
     })
     return (
