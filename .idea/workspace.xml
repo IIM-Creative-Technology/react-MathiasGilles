@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d16d3231-4d0a-469c-acc6-6d721b939592" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Error404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_error_404.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_presentation_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_presentation_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -79,7 +80,7 @@
       <workItem from="1612369411197" duration="1578000" />
       <workItem from="1612454292747" duration="9797000" />
       <workItem from="1612525792425" duration="2035000" />
-      <workItem from="1612701888935" duration="9658000" />
+      <workItem from="1612701888935" duration="10033000" />
     </task>
     <servers />
   </component>
