@@ -1,5 +1,13 @@
 *{
+<<<<<<< HEAD
   font-family: 'Roboto';
+=======
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+>>>>>>> e0130a23e767154051cc3e422c15bcf3f6562366
 }
 
 
