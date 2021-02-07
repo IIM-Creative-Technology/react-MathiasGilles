@@ -1,0 +1,26 @@
+.container-question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    position: relative;
+    
+    h2{
+        margin-bottom: 5vh;
+        color: #ecf0f1;
+        font-size: 35px;
+    }
+    
+    .button-next-step{
+        margin: 0;
+        border: none;
+        background-color: #e74c3c;
+        font-family: Roboto, serif;
+        font-size: 20px;
+        color: white;
+        padding: 10px 30px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
