@@ -22,8 +22,7 @@
     <list default="true" id="d16d3231-4d0a-469c-acc6-6d721b939592" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Presentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Presentation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Question.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Question.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <workItem from="1612369411197" duration="1578000" />
       <workItem from="1612454292747" duration="9797000" />
       <workItem from="1612525792425" duration="2035000" />
-      <workItem from="1612701888935" duration="8695000" />
+      <workItem from="1612701888935" duration="9183000" />
     </task>
     <servers />
   </component>
