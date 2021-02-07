@@ -23,7 +23,7 @@
               "name": "jaune"
             }
           ],
-          "answer": "vert"
+          "answer": "green"
         },
         {
           "question": "Couleur du poney",
@@ -45,7 +45,7 @@
               "name": "jaune"
             }
           ],
-          "answer": "rouge"
+          "answer": "red"
         },
         {
           "question": "Couleur du lion",
@@ -67,220 +67,7 @@
               "name": "jaune"
             }
           ],
-          "answer": "jaune"
-        }
-      ]
-    },
-    {
-      "name": "Blablabla",
-      "questionnaire": [
-        {
-          "question": "Couleur du cheval",
-          "options": [
-            {
-              "key": "green",
-              "name": "vert"
-            },
-            {
-              "key": "red",
-              "name": "rouge"
-            },
-            {
-              "key": "blue",
-              "name": "bleu"
-            },
-            {
-              "key": "yellow",
-              "name": "jaune"
-            }
-          ],
-          "answer": "vert"
-        },
-        {
-          "question": "Couleur du poney",
-          "options": [
-            {
-              "key": "green",
-              "name": "vert"
-            },
-            {
-              "key": "red",
-              "name": "rouge"
-            },
-            {
-              "key": "blue",
-              "name": "bleu"
-            },
-            {
-              "key": "yellow",
-              "name": "jaune"
-            }
-          ],
-          "answer": "rouge"
-        },
-        {
-          "question": "Couleur du lion",
-          "options": [
-            {
-              "key": "green",
-              "name": "vert"
-            },
-            {
-              "key": "red",
-              "name": "rouge"
-            },
-            {
-              "key": "blue",
-              "name": "bleu"
-            },
-            {
-              "key": "yellow",
-              "name": "jaune"
-            }
-          ],
-          "answer": "jaune"
-        }
-      ]
-    },
-    {
-      "name": "Blablabla",
-      "questionnaire": [
-        {
-          "question": "Couleur du cheval",
-          "options": [
-            {
-              "key": "green",
-              "name": "vert"
-            },
-            {
-              "key": "red",
-              "name": "rouge"
-            },
-            {
-              "key": "blue",
-              "name": "bleu"
-            },
-            {
-              "key": "yellow",
-              "name": "jaune"
-            }
-          ],
-          "answer": "vert"
-        },
-        {
-          "question": "Couleur du poney",
-          "options": [
-            {
-              "key": "green",
-              "name": "vert"
-            },
-            {
-              "key": "red",
-              "name": "rouge"
-            },
-            {
-              "key": "blue",
-              "name": "bleu"
-            },
-            {
-              "key": "yellow",
-              "name": "jaune"
-            }
-          ],
-          "answer": "rouge"
-        },
-        {
-          "question": "Couleur du lion",
-          "options": [
-            {
-              "key": "green",
-              "name": "vert"
-            },
-            {
-              "key": "red",
-              "name": "rouge"
-            },
-            {
-              "key": "blue",
-              "name": "bleu"
-            },
-            {
-              "key": "yellow",
-              "name": "jaune"
-            }
-          ],
-          "answer": "jaune"
-        }
-      ]
-    },
-    {
-      "name": "Blablabla",
-      "questionnaire": [
-        {
-          "question": "Couleur du cheval",
-          "options": [
-            {
-              "key": "green",
-              "name": "vert"
-            },
-            {
-              "key": "red",
-              "name": "rouge"
-            },
-            {
-              "key": "blue",
-              "name": "bleu"
-            },
-            {
-              "key": "yellow",
-              "name": "jaune"
-            }
-          ],
-          "answer": "vert"
-        },
-        {
-          "question": "Couleur du poney",
-          "options": [
-            {
-              "key": "green",
-              "name": "vert"
-            },
-            {
-              "key": "red",
-              "name": "rouge"
-            },
-            {
-              "key": "blue",
-              "name": "bleu"
-            },
-            {
-              "key": "yellow",
-              "name": "jaune"
-            }
-          ],
-          "answer": "rouge"
-        },
-        {
-          "question": "Couleur du lion",
-          "options": [
-            {
-              "key": "green",
-              "name": "vert"
-            },
-            {
-              "key": "red",
-              "name": "rouge"
-            },
-            {
-              "key": "blue",
-              "name": "bleu"
-            },
-            {
-              "key": "yellow",
-              "name": "jaune"
-            }
-          ],
-          "answer": "jaune"
+          "answer": "yellow"
         }
       ]
     }

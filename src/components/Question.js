@@ -76,10 +76,9 @@ function Question() {
 
     const id = useParams().id;
     const questions = Questions.All.[id].questionnaire;
-    
+    console.log(questions[0].options[0].name)
     // Map on the questions
     const GetAllInputs = questions[step].options.map( (options) => <Input key={options.key} changeEvent={SetAnswer} answer={options}></Input>);
-
     // Set the answer with the key
     function SetAnswer(e){
         setAnswer(e.target.value)

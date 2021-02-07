@@ -6,7 +6,7 @@ const Input = (props) => {
     return (
         <div className="container-input-radio">
             <input value={props.answer.key} name="input" onChange={props.changeEvent} className="input" type="radio"/>
-            <p className="answer">{props.answer.question}</p>
+            <p className="answer">{props.answer.name}</p>
         </div>
     )
 }
