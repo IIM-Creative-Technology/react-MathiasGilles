@@ -1,8 +1,6 @@
 import "../scss/layout/_presentation_home.scss"
 import Weather from "./Weather";
 
-import imagePresentation from "../images/home-page-image.jpg";
-
 function Presentation(){
     return(
         <section className="presentation-container">
