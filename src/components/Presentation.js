@@ -11,7 +11,7 @@ function Presentation(){
                 </div>
             </article>
             <article>
-                <img src="http://place-hold.it/400x400" alt=""/>
+                <img src="../images/home-page-image.jpg" alt="image home page"/>
             </article>
         </section>
     )

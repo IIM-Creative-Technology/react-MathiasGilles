@@ -7,7 +7,7 @@ function NavBarre() {
     return (
         <nav>
             <div>
-                <Link to="/"><img src="http://place-hold.it/50x50" alt=""/></Link>
+                <Link to="/"><img src="../images/accueil.svg" alt=""/></Link>
             </div>
         </nav>
     )
